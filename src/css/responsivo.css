@@ -1,0 +1,21 @@
+@media(max-width:1215px){
+    .main{
+       background-image: url(/src/images/bg-mobile.svg);
+    flex-direction: column;
+}
+
+.main .info{
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    justify-content: center;
+    margin-top:50px ;
+}
+
+.main .info .btn {
+    padding: 10px 100px;
+}
+
+}

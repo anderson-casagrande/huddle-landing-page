@@ -1,0 +1,63 @@
+body {
+    background-color:  hsl(257, 40%, 49%);
+    padding: 40px;
+    background-image: url(/src/images/bg-desktop.svg);
+    height: 100vh;
+}
+
+.header .logo {
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+.main {
+    display: flex;
+    gap:50px;
+}
+
+.main .info {
+    margin-top: 40px;
+}
+
+.main .info h1{
+    color:#fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.main .info p {
+    color: #fff;
+    font-size:20px;
+    margin-top: 40px;
+}
+
+.main .info .btn{
+    background-color:#FFF ;
+    border-radius: 50px;
+    font-size: 20px;
+    color: hsl(257, 40%, 49%);
+    padding:10px 60px;
+    margin-top: 40px;
+}
+
+.main .info .btn:hover{
+    background-color:hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: #FFF;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .fab{
+    font-size: 24px;
+    color:#fff;
+    padding: 10px;
+}
+
+.footer .fab:hover{
+    cursor: pointer;
+    color:hsl(300, 69%, 71%);
+}
